@@ -26,7 +26,7 @@ int main(){
   cout<<"output size is:"<<outputLength<<endl;
   cout<<output<<endl;
   for(int j; j < outputLength; j++){
-    if(output[j]!= output[outputLength-j]){
+    if(output[j]!= output[outputLength+1-j]){
 	cout<<"This is not a Palindrome"<<endl;
     }
       else{
